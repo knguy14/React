@@ -129,7 +129,7 @@ class CommentForm extends Component {
                                 <Label htmlFor="rating">Rating </Label>
                                 <Control.select
                                     model=".rating"
-                                    id=".rating"
+                                    id="rating"
                                     name="rating"
                                     className="form-control">
                                         <option>1</option>
@@ -143,7 +143,7 @@ class CommentForm extends Component {
                                 <Label htmlFor="author">Your Name</Label>
                                     <Control.text
                                         model=".author"
-                                        id=".author"
+                                        id="author"
                                         name="author"
                                         placeholder="Your Name"
                                         className="form-control"
@@ -168,7 +168,7 @@ class CommentForm extends Component {
                                 <Label htmlFor="form-group">Comment</Label>
                                 <Control.textarea
                                     model=".text"
-                                    id=".text"
+                                    id="text"
                                     name="text"
                                     placeholder="Your comment goes here"
                                     rows="6"
